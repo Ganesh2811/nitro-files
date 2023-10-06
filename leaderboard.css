@@ -32,3 +32,16 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px; 
 }
+.grid-row{
+    border-bottom:1px solid #D9D9D9;
+}
+.cell{
+color: var(--type-primary-headlines, #2C2C2C);
+text-align: right;
+/* LG/Text M */
+font-family: Adobe Clean;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; 
+}
