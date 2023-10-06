@@ -23,8 +23,7 @@
 }
 
 
-.details-section .details .top-section,
-.details-section .details .top-section .points-section {
+.details-section .details .top-section {
     justify-content: flex-end;
     flex-direction: row-reverse;
 }
@@ -135,4 +134,10 @@
 
 .rewards-section {
     grid-area: 2 / 2 / 3 / 3;
+}
+
+@media screen and (max-width:768px) {
+    bunchball-missions {
+        width: 100%;
+    }
 }
