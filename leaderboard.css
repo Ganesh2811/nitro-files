@@ -13,7 +13,14 @@
     display: none;
 }
 
-.credit-leaderboard {
-    border: 1px solid #D9D9D9;
-    
+.hook-selector .top-mounted-select {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px
+}
+
+select {
+    background-image: url("/content/dam/adu/Vector%2044.png");
 }
