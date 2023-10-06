@@ -34,6 +34,19 @@
     font-size: 18px;
     font-weight: 700;
     line-height: 24px;
+    color: #000;
+
+}
+
+.points-text {
+    align-items: center;
+    justify-content: center;
+}
+
+.circular-portrait img {
+    height: 100px;
+    width: 100px;
+
 }
 
 .points {
