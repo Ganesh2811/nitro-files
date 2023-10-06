@@ -15,6 +15,38 @@
 
 }
 
+#circle-icon {
+    height: 100px;
+    width: 100px;
+}
+
+.title {
+    text-align: left;
+}
+
+.secondary-page-title .title {
+    color: #000;
+}
+
+.text-medium-light {
+    color: #7B7B7B;
+
+}
+
+.text-emphasis {
+    color: #000;
+}
+
+.top-section {
+    justify-content: flex-start;
+    margin-right: 60px;
+    flex-direction: row-reverse;
+}
+
+.details-section .details .top-section .points-section .points {
+    color: #000;
+}
+
 .challenge-card {
     padding: 10px 30px;
     box-shadow: none;
