@@ -10,14 +10,26 @@
 
 }
 
-.points-text {
-    align-items: center;
+.challenge-details::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    width: 2px;
+    height: 100%;
+    display: block;
 
 }
 
-#circle-icon {
-    height: 100px;
-    width: 100px;
+
+.details-section .details .top-section,
+.details-section .details .top-section .points-section {
+    justify-content: flex-end;
+}
+
+.points-text {
+    align-items: center;
+
 }
 
 .title {
