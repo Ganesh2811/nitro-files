@@ -25,7 +25,7 @@
     display: none;
 }
 
-.scrollable {
+.challenges-next-main .scrollable {
     height: auto;
     overflow: auto;
 }
@@ -48,7 +48,7 @@
     line-height: 20px
 }
 
-.challenge-details .slide-in {
+.challenge-details {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 125px;
