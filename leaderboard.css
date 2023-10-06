@@ -24,3 +24,11 @@
 select {
     background-image: url("/content/dam/adu/Vector%2044.png");
 }
+.description{
+    color: #000;
+font-family: Adobe Clean;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+}
