@@ -19,6 +19,10 @@
     padding: 10px 30px;
     box-shadow: none;
     border-radius: 10px;
+    flex-direction: row-reverse;
+    border-radius: 10px;
+    border: 1px solid var(--black-200, #D9D9D9);
+    background: var(--brand-white, #FFF);
 }
 
 .widget-subheader {
@@ -34,6 +38,7 @@
     font-size: 18px;
     font-weight: 700;
     line-height: 24px;
+    text-align: center;
     color: #000;
 
 }
@@ -49,10 +54,11 @@
 
 }
 
-.points {
+.points-text .points {
     font-size: 48px;
     font-weight: 700;
     line-height: 56px;
+    color: #000;
 }
 
 .point-category {
