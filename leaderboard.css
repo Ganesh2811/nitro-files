@@ -3,3 +3,17 @@
     justify-content: space-between;
 
 }
+
+.nitro-widget {
+    margin-top: 15px;
+
+}
+
+.widget-header-title {
+    display: none;
+}
+
+.credit-leaderboard {
+    border: 1px solid #D9D9D9;
+    
+}
