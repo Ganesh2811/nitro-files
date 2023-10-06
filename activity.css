@@ -59,6 +59,9 @@
 .details-section .details .top-section .points-section .points {
     color: #000;
 }
+.points-section{
+ margin-left:50px
+}
 
 .challenge-card {
     padding: 10px 30px;
