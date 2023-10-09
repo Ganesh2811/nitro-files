@@ -2,6 +2,25 @@
     display: flex;
     justify-content: space-between;
 
+
+}
+
+.grid-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.credit-leaderboard {
+    width: 50%;
+}
+
+.credit-leaderboard {
+    width: 50%;
+}
+
+.text-center {
+    text-align: left;
+
 }
 
 .nitro-widget {
@@ -13,35 +32,37 @@
     display: none;
 }
 
+.cell {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px
+}
+
 .hook-selector .top-mounted-select {
     color: #000;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 24px
+    line-height: 24px;
+    padding: 0;
+}
+
+.grid-row .grid-x {
+    padding: 0;
+}
+
+.leaderboard-profile-section {
+    background: #fff;
 }
 
 select {
     background-image: url("/content/dam/adu/Vector%2044.png");
 }
-.description{
-    color: #000;
-font-family: Adobe Clean;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; 
-}
-.grid-row{
-    border-bottom:1px solid #D9D9D9;
-}
-.cell{
-color: var(--type-primary-headlines, #2C2C2C);
-text-align: right;
-/* LG/Text M */
-font-family: Adobe Clean;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 20px; 
+
+@media screen and (max-width:767px) {
+    select {
+        padding: 0;
+    }
 }
