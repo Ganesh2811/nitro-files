@@ -65,6 +65,43 @@
 select {
     background-image: url("/content/dam/adu/Vector%2044.png");
 }
+.leaderboard{
+    &::-webkit-scrollbar {
+
+                    width: 4px;
+
+                    background-color: $dark-blue;
+
+                    border-radius: 5px;
+
+                }
+
+ 
+
+                &::-webkit-scrollbar-track {
+
+                    width: 4px;
+
+                    background-color: #D9D9D9;
+
+                    border-radius: 5px;
+
+                }
+
+ 
+
+                &::-webkit-scrollbar-thumb {
+
+ 
+
+                    width: 4px;
+
+                    background-color: $dark-blue;
+
+                    border-radius: 5px;
+
+                }
+}
 
 @media screen and (max-width:767px) {
     select {
