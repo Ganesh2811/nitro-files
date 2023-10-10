@@ -66,6 +66,8 @@ select {
     background-image: url("/content/dam/adu/Vector%2044.png");
 }
 .leaderboard{
+    max-height:450px;
+    overflow:auto;
     &::-webkit-scrollbar {
 
                     width: 4px;
@@ -96,7 +98,7 @@ select {
 
                     width: 4px;
 
-                    background-color: $dark-blue;
+                    background-color: blue;
 
                     border-radius: 5px;
 
