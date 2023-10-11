@@ -49,7 +49,9 @@
     padding: 0;
     border-bottom: none;
 }
-
+.leaderboard .text-center-row-other .row-other{
+text-align:right;
+}
 .hook-selector .top-mounted-select {
     border-bottom: 0;
 }
@@ -61,6 +63,20 @@
 
 .leaderboard-profile-section {
     background: #fff;
+}
+top-mounted-select::after{
+content: "";
+    display: inline-block;
+    padding: 3px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border: solid #2c2c2c;
+    -webkit-transition: -webkit-transform 0.3s ease;
+    transition: -webkit-transform 0.3s ease;
+    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+    border-width: 0 2px 2px 0;
+}
 }
 
 select {
