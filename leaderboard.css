@@ -49,8 +49,8 @@
     padding: 0;
     border-bottom: none;
 }
-
-.hook-selector::after {
+/* 
+.object-selector::after {
     content: "";
     display: inline-block;
     padding: 3px;
@@ -63,7 +63,7 @@
     transition: transform 0.3s ease, -webkit-transform 0.3s ease;
     border-width: 0 2px 2px 0;
 }
-
+ */
 
 .hook-selector .top-mounted-select {
     border-bottom: 0;
@@ -72,12 +72,15 @@
 .grid-row .grid-x {
     padding: 0;
 }
+
+.object-selector::after {}
+
 .leaderboard-profile-section {
     background: #fff;
 }
 
 select {
-    background-image: url("/content/dam/adu/Vector%2044.png");
+    background-image: url("/nitro-files/blob/main/medal_8992446%201%20(Traced).svg");
 }
 
 @media screen and (max-width:767px) {
