@@ -99,6 +99,18 @@
     }
 }
 
+.columns {
+    padding: 0;
+}
+
+.columns {
+    padding: 0;
+}
+
+.leaderboard .text-center-row-other .row-other {
+    text-align: right;
+}
+
 .grid-margin-x {
     margin: 0;
 }
