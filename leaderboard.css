@@ -74,7 +74,7 @@
 }
 
 .leaderboard {
-    max-height: 620px;
+    max-height: 422px;
     overflow-y: auto;
 
     &::-webkit-scrollbar {
@@ -97,6 +97,10 @@
         border-radius: 5px;
 
     }
+}
+
+.grid-margin-x {
+    margin: 0;
 }
 
 .leaderboard-profile-section {
