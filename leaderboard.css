@@ -125,7 +125,7 @@
 }
 
 select {
-    background-image: url("arrow.svg");
+    background-image: url("https://github.com/Ganesh2811/nitro-files/blob/main/arrow.svg");
 }
 
 @media screen and (max-width:767px) {
