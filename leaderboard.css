@@ -1,7 +1,7 @@
 .leaderboard-wrap {
     display: flex;
     justify-content: space-between;
-
+    background:red;
 
 }
 object-selector top-mounted-select::after{
