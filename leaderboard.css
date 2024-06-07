@@ -209,6 +209,9 @@
         font-size: 18px;
         line-height: 24px;
         color: #2C2C2C;
+        @include mobile{
+            margin-left: 16px;
+        }
     }
 
     .value {
@@ -217,6 +220,9 @@
         font-size: 16px;
         line-height: 24px;
         color: #505050;
+        @include mobile{
+            margin-left: 16px;
+        }
 
         span {
             font-family: $adobe-clean;
